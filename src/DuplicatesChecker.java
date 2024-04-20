@@ -19,7 +19,7 @@ public class DuplicatesChecker {
         BitSet bs = new BitSet();
 
         for (int num : array) {
-            int num0 = num - min; // Começar com base do min value
+            int num0 = num - min;
             if (bs.get(num0)) {
                 System.out.println(num);
             } else {
